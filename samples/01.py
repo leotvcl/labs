@@ -1,4 +1,4 @@
-def validate_is_String(chainString) :
+def evaluate_is_String(chainString) :
     validate = chainString.isdigit()
     return validate
 
@@ -18,7 +18,7 @@ answer = "s"
 while answer == "s" :
     try :
         fruit = input("Por favor ingresa una fruta: ")       
-        if validate_is_String(fruit) == False and validate_long_String(fruit) >= 4:
+        if evaluate_is_String(fruit) == False and validate_long_String(fruit) >= 4:
             fruit_list.append(putTitle(fruit))
         else :
             errorMessage()
