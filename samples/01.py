@@ -15,6 +15,7 @@ def errorMessage() :
 
 fruit_list = []
 answer = "s"
+
 while answer == "s" :
     try :
         fruit = input("Por favor ingresa una fruta: ")       
