@@ -11,7 +11,7 @@ def putTitle(chainString) :
     return chainString
 
 def errorMessage() :
-    print("Parece que no ingresaste un valor correctamente")
+    print("Parece que no ingresaste un valor correcto")
 
 fruit_list = []
 answer = "s"
