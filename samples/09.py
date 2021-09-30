@@ -58,4 +58,3 @@ for i in range(1,6):
         continue
     print("Dentro del ciclo.", i)
 print("Fuera del ciclo.")
-
